@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #072c4a;
+    color: white;
+    padding: 10px 20px;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff81e4;
+}
+.hero {
+    background-color: rgb(106, 164, 210);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-content h1 {
+    font-size: 3rem;
+}
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.cta-button {
+    background-color: #072c4a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
