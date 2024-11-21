@@ -63,6 +63,7 @@ header nav ul li a:hover {
 .skills {
     padding: 50px 20px;
     text-align: center;
+    background-color:  rgb(180, 220, 255);
 }
 .skills h2 {
     font-size: 2.5rem;
@@ -78,4 +79,26 @@ header nav ul li a:hover {
     background-color: rgb(218, 238, 255);
     border-radius: 10px;
     width: 25%;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(218, 238, 255);
+}
+.projects h2 {
+    font-size: 2.5rem;
+}
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-item {
+    padding: 20px;
+    background-color: rgb(180, 220, 255);
+    border-radius: 10px;
+    width: 30%;
 }
