@@ -4,7 +4,7 @@ body {
 }
 header {
     background-color: #072c4a;
-    color: white;
+    color: black;
     padding: 10px 20px;
 }
 header nav ul {
@@ -24,8 +24,8 @@ header nav ul li a:hover {
     color: #ff81e4;
 }
 .hero {
-    background-color: rgb(106, 164, 210);
-    color: white;
+    background-color: rgb(166, 215, 255);
+    color: black;
     text-align: center;
     padding: 100px 20px;
 }
@@ -48,15 +48,18 @@ header nav ul li a:hover {
 .about {
     padding: 50px 20px;
     text-align: center;
-    background-color: rgb(174, 214, 247);
-    color: white;
+    background-color: rgb(199, 229, 253);
+    color: black;
 }
-.about h2 {
-    font-size: 2rem;
+h2 {
+    font-size: 3rem;
 }
-.about p {
+h3 {
+    font-size: 2.5rem;
+}
+p {
     font-size: 1.5rem;
-    color: white;
+    color: black;
 }
 
 /* Skills Section */
@@ -64,9 +67,6 @@ header nav ul li a:hover {
     padding: 50px 20px;
     text-align: center;
     background-color:  rgb(180, 220, 255);
-}
-.skills h2 {
-    font-size: 2.5rem;
 }
 .skill-list {
     display: flex;
@@ -87,9 +87,6 @@ header nav ul li a:hover {
     text-align: center;
     background-color: rgb(218, 238, 255);
 }
-.projects h2 {
-    font-size: 2.5rem;
-}
 .project-list {
     display: flex;
     justify-content: space-around;
@@ -101,4 +98,49 @@ header nav ul li a:hover {
     background-color: rgb(180, 220, 255);
     border-radius: 10px;
     width: 30%;
+}
+
+/* Contact */
+.contact-me {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(180, 220, 255);
+    color: black;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.contact-info {
+    width: 45%;
+}
+.contact-item {
+    background-color: rgb(218, 238, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact-item a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-item a:hover {
+    text-decoration: underline;
+    color: rgb(117, 191, 255);
+}
+.contact-form {
+    width: 45%;
+    background-color: rgb(218, 238, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
 }
