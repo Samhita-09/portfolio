@@ -144,3 +144,27 @@ p {
     margin-bottom: 15px;
     border: none;
 }
+
+.contact-form button[type="submit"] {
+    background-color: #072c4a;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: rgb(117, 191, 255);
+}
+
+/* Footer */
+footer {
+    background-color: rgb(117, 191, 255);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
